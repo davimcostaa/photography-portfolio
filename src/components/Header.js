@@ -15,7 +15,7 @@ const Header = () => {
           <img src={Logo} alt='' />
         </Link>
         <nav className='hidden xl:flex gap-x-12 font-semibold'>
-          <Link to='/home' className='text-[#696c6d] hover:text-primary transition' >
+          <Link to='/' className='text-[#696c6d] hover:text-primary transition' >
             Home
           </Link>
           <Link to='/about' className='text-[#696c6d] hover:text-primary transition' >
