@@ -25,7 +25,7 @@ const MobileNav = () => {
 
 
   return (
-    <nav className='text-primary xl:hidden'>
+    <nav className='text-primary font-primary xl:hidden'>
       <div onClick={() => setOpenMenu(true)} className='text-3xl cursor-pointer'>
         <CgMenuRight />
       </div>
